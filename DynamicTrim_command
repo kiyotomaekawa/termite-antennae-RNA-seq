@@ -1,0 +1,3 @@
+#DynamicTrim
+
+/home/maekawa/SolexaQA_v.2.5/DynamicTrim.pl -d /media/Data2_Ryohei/Antennae_RNA-seq/test2/DynamiTrim_2 /media/Data2_Ryohei/Antennae_RNA-seq/test2/cutadapt_rev/trimmed.?.?.fastq

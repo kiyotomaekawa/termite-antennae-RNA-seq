@@ -1,0 +1,12 @@
+/home/maekawa/tophat-2.0.9.Linux_x86_64/tophat -o ./TopHat/genomemapped01 ./genome_formapping ./for_index/1_uniq1.fastq ./for_index/1_uniq2.fastq 
+./TopHat/genomemapped02 ./genome_formapping ./for_index/2_uniq1.fastq ./for_index/2_uniq2.fastq 
+./TopHat/genomemapped03 ./genome_formapping ./for_index/3_uniq1.fastq ./for_index/3_uniq2.fastq  
+./TopHat/genomemapped04 ./genome_formapping ./for_index/4_uniq1.fastq ./for_index/4_uniq2.fastq 
+./TopHat/genomemapped05 ./genome_formapping ./for_index/5_uniq1.fastq ./for_index/5_uniq2.fastq 
+./TopHat/genomemapped06 ./genome_formapping ./for_index/6_uniq1.fastq ./for_index/6_uniq2.fastq 
+./TopHat/genomemapped07 ./genome_formapping ./for_index/7_uniq.fastq ./for_index//7_uniq2.fastq     
+./TopHat/genomemapped08 ./genome_formapping ./for_index/8_uniq1.fastq ./for_index/8_uniq2.fastq 
+./TopHat/genomemapped09 ./genome_formapping ./for_index/9_uniq1.fastq ./for_index/9_uniq2.fastq 
+./TopHat/genomemapped10 ./genome_formapping ./for_index/10_uniq1.fastq ./for_index/10_uniq2.fastq
+./TopHat/genomemapped11 ./genome_formapping ./for_index/11_uniq1.fastq ./for_index/11_uniq2.fastq
+./TopHat/genomemapped12 ./genome_formapping ./for_index/12_uniq1.fastq ./for_index/12_uniq2.fastq

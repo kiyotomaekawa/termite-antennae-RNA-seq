@@ -1,0 +1,9 @@
+#cutadapt
+
+#forward read
+
+cutadapt   -a AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC -o /media/Data2_Ryohei/Antennae_RNA-seq/test2/cutadapt_rev/trimmed1.1.fastq /media/Data2_Ryohei/test2/L2_idx01/idx01_ATCACG_S25_L002_R1_001.fastq.gz
+
+#reverse read
+
+cutadapt   -a AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATT -o /media/Data2_Ryohei/Antennae_RNA-seq/test2/cutadapt_rev/trimmed1.2.fastq /media/Data2_Ryohei/test2/L2_idx01/idx01_ATCACG_S25_L002_R2_001.fastq.gz

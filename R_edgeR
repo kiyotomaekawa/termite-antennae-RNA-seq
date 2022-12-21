@@ -1,0 +1,17 @@
+ library(edgeR)
+
+> setwd("/media/Data2_Ryohei/Antennae_RNA-seq/genomedata/featurecounts")
+> dat<-read.delim("countall_forR_data",header=T,row.names=1)
+> dim(dat)
+> group<-c("Wmal","Wmal","Wmal","Wfem","Wfem","Wfem","Smal","Smal","Smal","Sfem","Sfem","Sfem")
+> D<-DGEList(dat,group=group)
+> D<-calcNormFactors(D,method="TMM")
+> D$samples
+> D<-estimateCommonDisp(D)
+> D$common.dispersion
+> D<-estimateTagwiseDisp(D)
+> summary(D$tagwise.dispersion) 
+> de<-exactTest(D,pair=c("Smal","Sfem"))
+> de.sorted<-topTags(de,n=nrow(de$table))
+> write.table(de.sorted$table,"de.Smal.vs.Sfem.txt",sep="\t",quote=F)
+
